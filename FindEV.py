@@ -65,6 +65,31 @@ def findIVs(stat, baseStat, level, EV, isHP = False, natureMod = 1):
     print("minimum IV value:", minIV, "\tmaximum IV value:", maxIV)
     
 
+def findBaseStat(stat, level, EV, IV, isHP = False, natureMod = 1):
+    #HP FORMULA = int((2*Base + IV + int(EV/4)) * Level/100 + Level + 10)
+    #OTHER FORMULA = int( (int( (2*Base + IV + int(EV/4) * Level/100) ) + 5) * Nature )
+    minStat = stat / natureMod
+    maxStat = (stat + 1) / natureMod - 1
+
+    if (isHP):
+        minStat -= (10 + level)
+        maxStat -= (10 + level)
+    else:
+        minStat -= 5
+        maxStat -= 5
+
+    minStat = minIV * 100 / level
+    maxStat = maxIV * 101 / level - 1
+    
+    minStat -= (IV + EV//4)
+    maxStat -= (IV + EV//4)
+
+    minStat //= 2
+    maxStat /= 2
+
+    minStat = round(minStat)
+    maxStat = round(maxStat)
+
 
 #Examples with a Garchomp taken from Bulbapedia
 findEVs(289,108,78,24,True)
@@ -72,5 +97,5 @@ findEVs(278,130,78,12,False,1.1)
 findEVs(171,102,78,5,False)
 
 #findIVs(141,90,53,252,False,1.1)
-findIVs(85,70,53,)
+#findIVs(85,70,53,)
 
