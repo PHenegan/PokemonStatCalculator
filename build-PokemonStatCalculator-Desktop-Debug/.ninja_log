@@ -1,0 +1,35 @@
+# ninja log v5
+0	7	0	/home/phenegan/Documents/C++ Projects/PokemonStatCalculator/build-PokemonStatCalculator-Desktop-Debug/CMakeFiles/cmake.verify_globs	e162e5a3b2cd3ce3
+0	113	1631051673261908480	PokemonStatCalculator_autogen/timestamp	4e1168abd140dc3e
+0	113	1631051673261908480	PokemonStatCalculator_autogen/mocs_compilation.cpp	4e1168abd140dc3e
+0	113	1631051673261908480	/home/phenegan/Documents/C++ Projects/PokemonStatCalculator/build-PokemonStatCalculator-Desktop-Debug/PokemonStatCalculator_autogen/timestamp	4e1168abd140dc3e
+0	113	1631051673261908480	/home/phenegan/Documents/C++ Projects/PokemonStatCalculator/build-PokemonStatCalculator-Desktop-Debug/PokemonStatCalculator_autogen/mocs_compilation.cpp	4e1168abd140dc3e
+113	119	1631051673271908459	/home/phenegan/Documents/C++ Projects/PokemonStatCalculator/PokemonStatCalculator/PokemonStatCalculator_en_US.ts	668d3f9730ef2c97
+119	926	1631051674078573364	CMakeFiles/PokemonStatCalculator.dir/PokemonStatCalculator_autogen/mocs_compilation.cpp.o	d4ebee47703a9f56
+120	1035	1631051674188573126	CMakeFiles/PokemonStatCalculator.dir/mainwindow.cpp.o	a245f3bd4d739997
+119	1036	1631051674188573126	CMakeFiles/PokemonStatCalculator.dir/main.cpp.o	3405a1c2bf03ed36
+1036	1254	1631051674405239325	PokemonStatCalculator	397e403c35008ec7
+0	7	0	/home/phenegan/Documents/C++ Projects/PokemonStatCalculator/build-PokemonStatCalculator-Desktop-Debug/CMakeFiles/cmake.verify_globs	e162e5a3b2cd3ce3
+1	19	1631051937811991682	PokemonStatCalculator_autogen/timestamp	4e1168abd140dc3e
+1	19	1631051937811991682	PokemonStatCalculator_autogen/mocs_compilation.cpp	4e1168abd140dc3e
+1	19	1631051937811991682	/home/phenegan/Documents/C++ Projects/PokemonStatCalculator/build-PokemonStatCalculator-Desktop-Debug/PokemonStatCalculator_autogen/timestamp	4e1168abd140dc3e
+1	19	1631051937811991682	/home/phenegan/Documents/C++ Projects/PokemonStatCalculator/build-PokemonStatCalculator-Desktop-Debug/PokemonStatCalculator_autogen/mocs_compilation.cpp	4e1168abd140dc3e
+20	24	1631051937818658364	/home/phenegan/Documents/C++ Projects/PokemonStatCalculator/PokemonStatCalculator/PokemonStatCalculator_en_US.ts	668d3f9730ef2c97
+24	917	1631051938708660527	CMakeFiles/PokemonStatCalculator.dir/mainwindow.cpp.o	a245f3bd4d739997
+917	1136	1631051938928661062	PokemonStatCalculator	397e403c35008ec7
+0	6	0	/home/phenegan/Documents/C++ Projects/PokemonStatCalculator/build-PokemonStatCalculator-Desktop-Debug/CMakeFiles/cmake.verify_globs	e162e5a3b2cd3ce3
+1	17	1631052007585525088	PokemonStatCalculator_autogen/timestamp	4e1168abd140dc3e
+1	17	1631052007585525088	PokemonStatCalculator_autogen/mocs_compilation.cpp	4e1168abd140dc3e
+1	17	1631052007585525088	/home/phenegan/Documents/C++ Projects/PokemonStatCalculator/build-PokemonStatCalculator-Desktop-Debug/PokemonStatCalculator_autogen/timestamp	4e1168abd140dc3e
+1	17	1631052007585525088	/home/phenegan/Documents/C++ Projects/PokemonStatCalculator/build-PokemonStatCalculator-Desktop-Debug/PokemonStatCalculator_autogen/mocs_compilation.cpp	4e1168abd140dc3e
+18	22	1631052007588858433	/home/phenegan/Documents/C++ Projects/PokemonStatCalculator/PokemonStatCalculator/PokemonStatCalculator_en_US.ts	668d3f9730ef2c97
+22	913	1631052008478861368	CMakeFiles/PokemonStatCalculator.dir/mainwindow.cpp.o	a245f3bd4d739997
+913	1128	1631052008692195405	PokemonStatCalculator	397e403c35008ec7
+0	6	0	/home/phenegan/Documents/C++ Projects/PokemonStatCalculator/build-PokemonStatCalculator-Desktop-Debug/CMakeFiles/cmake.verify_globs	e162e5a3b2cd3ce3
+0	18	1631052044645654874	PokemonStatCalculator_autogen/timestamp	4e1168abd140dc3e
+0	18	1631052044645654874	PokemonStatCalculator_autogen/mocs_compilation.cpp	4e1168abd140dc3e
+0	18	1631052044645654874	/home/phenegan/Documents/C++ Projects/PokemonStatCalculator/build-PokemonStatCalculator-Desktop-Debug/PokemonStatCalculator_autogen/timestamp	4e1168abd140dc3e
+0	18	1631052044645654874	/home/phenegan/Documents/C++ Projects/PokemonStatCalculator/build-PokemonStatCalculator-Desktop-Debug/PokemonStatCalculator_autogen/mocs_compilation.cpp	4e1168abd140dc3e
+18	22	1631052044652321566	/home/phenegan/Documents/C++ Projects/PokemonStatCalculator/PokemonStatCalculator/PokemonStatCalculator_en_US.ts	668d3f9730ef2c97
+22	910	1631052045538991524	CMakeFiles/PokemonStatCalculator.dir/mainwindow.cpp.o	a245f3bd4d739997
+910	1126	1631052045752325650	PokemonStatCalculator	397e403c35008ec7
