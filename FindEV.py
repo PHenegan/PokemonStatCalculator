@@ -78,8 +78,8 @@ def findBaseStat(stat, level, EV, IV, isHP = False, natureMod = 1):
         minStat -= 5
         maxStat -= 5
 
-    minStat = minIV * 100 / level
-    maxStat = maxIV * 101 / level - 1
+    minStat = minStat * 100 / level
+    maxStat = maxStat * 101 / level - 1
     
     minStat -= (IV + EV//4)
     maxStat -= (IV + EV//4)
