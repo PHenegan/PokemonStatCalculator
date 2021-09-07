@@ -41,6 +41,7 @@ endif()
 # _directory_contents at /usr/lib64/cmake/Qt5LinguistTools/Qt5LinguistToolsMacros.cmake:78 (file)
 file(GLOB_RECURSE NEW_GLOB LIST_DIRECTORIES false "/home/phenegan/Documents/C++ Projects/PokemonStatCalculator/PokemonStatCalculator/*.cpp")
 set(OLD_GLOB
+  "/home/phenegan/Documents/C++ Projects/PokemonStatCalculator/PokemonStatCalculator/calculations.cpp"
   "/home/phenegan/Documents/C++ Projects/PokemonStatCalculator/PokemonStatCalculator/main.cpp"
   "/home/phenegan/Documents/C++ Projects/PokemonStatCalculator/PokemonStatCalculator/mainwindow.cpp"
   )

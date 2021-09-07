@@ -12,7 +12,6 @@
 #include <QtCore/QVariant>
 #include <QtWidgets/QAction>
 #include <QtWidgets/QApplication>
-#include <QtWidgets/QHBoxLayout>
 #include <QtWidgets/QLabel>
 #include <QtWidgets/QMainWindow>
 #include <QtWidgets/QMenu>
@@ -33,8 +32,7 @@ public:
     QAction *actionCalculate_Total_Stat;
     QAction *actionExit;
     QWidget *centralwidget;
-    QWidget *horizontalLayoutWidget;
-    QHBoxLayout *horizontalLayout;
+    QWidget *verticalLayoutWidget;
     QVBoxLayout *verticalLayout;
     QLabel *label;
     QMenuBar *menubar;
@@ -45,7 +43,7 @@ public:
     {
         if (MainWindow->objectName().isEmpty())
             MainWindow->setObjectName(QString::fromUtf8("MainWindow"));
-        MainWindow->resize(1214, 600);
+        MainWindow->resize(971, 681);
         actionCalculate_EV_range = new QAction(MainWindow);
         actionCalculate_EV_range->setObjectName(QString::fromUtf8("actionCalculate_EV_range"));
         actionCalculate_IV_range = new QAction(MainWindow);
@@ -60,15 +58,13 @@ public:
         actionExit->setObjectName(QString::fromUtf8("actionExit"));
         centralwidget = new QWidget(MainWindow);
         centralwidget->setObjectName(QString::fromUtf8("centralwidget"));
-        horizontalLayoutWidget = new QWidget(centralwidget);
-        horizontalLayoutWidget->setObjectName(QString::fromUtf8("horizontalLayoutWidget"));
-        horizontalLayoutWidget->setGeometry(QRect(80, 40, 1011, 471));
-        horizontalLayout = new QHBoxLayout(horizontalLayoutWidget);
-        horizontalLayout->setObjectName(QString::fromUtf8("horizontalLayout"));
-        horizontalLayout->setContentsMargins(0, 0, 0, 0);
-        verticalLayout = new QVBoxLayout();
+        verticalLayoutWidget = new QWidget(centralwidget);
+        verticalLayoutWidget->setObjectName(QString::fromUtf8("verticalLayoutWidget"));
+        verticalLayoutWidget->setGeometry(QRect(330, 210, 226, 80));
+        verticalLayout = new QVBoxLayout(verticalLayoutWidget);
         verticalLayout->setObjectName(QString::fromUtf8("verticalLayout"));
-        label = new QLabel(horizontalLayoutWidget);
+        verticalLayout->setContentsMargins(0, 0, 0, 0);
+        label = new QLabel(verticalLayoutWidget);
         label->setObjectName(QString::fromUtf8("label"));
         QFont font;
         font.setPointSize(18);
@@ -76,13 +72,10 @@ public:
 
         verticalLayout->addWidget(label, 0, Qt::AlignHCenter|Qt::AlignTop);
 
-
-        horizontalLayout->addLayout(verticalLayout);
-
         MainWindow->setCentralWidget(centralwidget);
         menubar = new QMenuBar(MainWindow);
         menubar->setObjectName(QString::fromUtf8("menubar"));
-        menubar->setGeometry(QRect(0, 0, 1214, 30));
+        menubar->setGeometry(QRect(0, 0, 971, 30));
         menuPokemon_Stat_Calculator = new QMenu(menubar);
         menuPokemon_Stat_Calculator->setObjectName(QString::fromUtf8("menuPokemon_Stat_Calculator"));
         MainWindow->setMenuBar(menubar);
@@ -110,9 +103,12 @@ public:
         actionCalculate_IV_range->setText(QCoreApplication::translate("MainWindow", "Calculate IV range", nullptr));
         actionCalculate_Base_Stat_Range->setText(QCoreApplication::translate("MainWindow", "Calculate Base Stat Range", nullptr));
         actionCalculate_Level_Range->setText(QCoreApplication::translate("MainWindow", "Calculate Level Range", nullptr));
-        actionCalculate_Total_Stat->setText(QCoreApplication::translate("MainWindow", "Calculate Total Stat", nullptr));
+        actionCalculate_Total_Stat->setText(QCoreApplication::translate("MainWindow", "Calculate Final Stat", nullptr));
         actionExit->setText(QCoreApplication::translate("MainWindow", "Exit", nullptr));
-        label->setText(QCoreApplication::translate("MainWindow", "Pokemon Total Stat Calculator", nullptr));
+#if QT_CONFIG(tooltip)
+        centralwidget->setToolTip(QCoreApplication::translate("MainWindow", "Pokemon Stat Calculator", nullptr));
+#endif // QT_CONFIG(tooltip)
+        label->setText(QCoreApplication::translate("MainWindow", "Final Stat Calculator", nullptr));
         menuPokemon_Stat_Calculator->setTitle(QCoreApplication::translate("MainWindow", "File", nullptr));
     } // retranslateUi
 

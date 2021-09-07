@@ -18,6 +18,7 @@ set(TS_FILES PokemonStatCalculator_en_US.ts)
 
 set(PROJECT_SOURCES
         main.cpp
+        calculations.cpp
         mainwindow.cpp
         mainwindow.h
         mainwindow.ui

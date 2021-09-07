@@ -9,42 +9,47 @@
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="mainwindow.ui" line="37"/>
-        <source>Pokemon Total Stat Calculator</source>
+        <location filename="mainwindow.ui" line="18"/>
+        <source>Pokemon Stat Calculator</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="mainwindow.ui" line="57"/>
+        <location filename="mainwindow.ui" line="38"/>
+        <source>Final Stat Calculator</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location filename="mainwindow.ui" line="56"/>
         <source>File</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="mainwindow.ui" line="71"/>
+        <location filename="mainwindow.ui" line="70"/>
         <source>Calculate EV range</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="mainwindow.ui" line="76"/>
+        <location filename="mainwindow.ui" line="75"/>
         <source>Calculate IV range</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="mainwindow.ui" line="81"/>
+        <location filename="mainwindow.ui" line="80"/>
         <source>Calculate Base Stat Range</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="mainwindow.ui" line="86"/>
+        <location filename="mainwindow.ui" line="85"/>
         <source>Calculate Level Range</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="mainwindow.ui" line="91"/>
-        <source>Calculate Total Stat</source>
+        <location filename="mainwindow.ui" line="90"/>
+        <source>Calculate Final Stat</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="mainwindow.ui" line="96"/>
+        <location filename="mainwindow.ui" line="95"/>
         <source>Exit</source>
         <translation type="unfinished"></translation>
     </message>
