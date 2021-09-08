@@ -6,6 +6,8 @@ MainWindow::MainWindow(QWidget *parent)
     , ui(new Ui::MainWindow)
 {
     ui->setupUi(this);
+    currentOperation = "Pokemon Total Stat Calculation";
+    this->setCentralWidget(ui->verticalLayoutWidget);
 }
 
 MainWindow::~MainWindow()
@@ -13,3 +15,22 @@ MainWindow::~MainWindow()
     delete ui;
 }
 
+void MainWindow::on_actionCalculateEV_triggered()
+{
+    setWindowTitle("Pokemon EV Range Calculation");
+}
+
+void MainWindow::on_actionCalculateIV_triggered()
+{
+    setWindowTitle("Pokemon IV Range Calculation");
+}
+
+void MainWindow::on_actionCalculateBaseStat_triggered()
+{
+    setWindowTitle("Pokemon Base Stat Range Calculation");
+}
+
+void MainWindow::on_actionCalculateTotalStat_triggered()
+{
+    setWindowTitle("Pokemon Total Stat Calculation");
+}
