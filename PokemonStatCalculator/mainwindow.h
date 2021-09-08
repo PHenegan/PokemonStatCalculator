@@ -25,8 +25,13 @@ private slots:
 
     void on_actionCalculateTotalStat_triggered();
 
+    void on_pushCalculate_clicked();
+
 private:
+    enum CalcMode {EV, IV, BASE_STAT, STAT, LEVEL};
+    typedef CalcMode calc_type;
+
     Ui::MainWindow *ui;
-    QString currentOperation = "";
+    CalcMode currentOperation;
 };
 #endif // MAINWINDOW_H
