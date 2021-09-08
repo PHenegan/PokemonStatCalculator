@@ -40,3 +40,9 @@ void MainWindow::on_actionCalculateTotalStat_triggered()
 }
 
 
+
+void MainWindow::on_pushCalculate_clicked()
+{
+
+}
+
