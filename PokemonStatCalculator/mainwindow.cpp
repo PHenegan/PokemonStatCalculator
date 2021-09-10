@@ -9,6 +9,7 @@ MainWindow::MainWindow(QWidget *parent)
     ui->setupUi(this);
     this->setCentralWidget(ui->verticalLayoutWidget);
     this->on_actionCalculateTotalStat_triggered();
+
 }
 
 MainWindow::~MainWindow()
