@@ -27,11 +27,17 @@ private slots:
 
     void on_pushCalculate_clicked();
 
+    void on_isHP_stateChanged(int arg1);
+
+    void on_natureMods_currentTextChanged(const QString &arg1);
+
 private:
     enum CalcMode {EV, IV, BASE_STAT, STAT, LEVEL};
-    typedef CalcMode calc_type;
 
     Ui::MainWindow *ui;
-    CalcMode currentOperation;
+    CalcMode m_currentOperation;
+    bool m_isHP;
+    double m_natureMod;
+
 };
 #endif // MAINWINDOW_H

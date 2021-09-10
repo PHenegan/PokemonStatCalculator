@@ -11,7 +11,8 @@ using namespace std;
  * @param natureMod - Nature modifier (+ is 1.1, - is 0.9, assumed 1 if no value is given)
  * @return a vector containing the minimum and maximum EV values in that order
  */
-vector<int> findEV(int stat, int baseStat, int level, int IV, bool isHP, double natureMod) {
+vector<int> findEV(int stat, int baseStat, int level, int IV, bool isHP, double natureMod)
+{
     //HP FORMULA = int((2*Base + IV + int(EV/4)) * Level/100 + Level + 10)
     //OTHER STAT ORMULA = int( (int( (2*Base + IV + int(EV/4) * Level/100) ) + 5) * Nature )
 
@@ -61,7 +62,8 @@ vector<int> findEV(int stat, int baseStat, int level, int IV, bool isHP, double 
  * @param natureMod - Nature modifier (+ is 1.1, - is 0.9, assumed 1 if no value is given)
  * @return a vector containing the minimum and maximum IV values in that order
  */
-vector<int> findIV(int stat, int baseStat, int level, int EV, bool isHP, double natureMod) {
+vector<int> findIV(int stat, int baseStat, int level, int EV, bool isHP, double natureMod)
+{
     //HP FORMULA = int((2*Base + IV + int(EV/4)) * Level/100 + Level + 10)
     //OTHER STAT ORMULA = int( (int( (2*Base + IV + int(EV/4) * Level/100) ) + 5) * Nature )
 
@@ -108,7 +110,8 @@ vector<int> findIV(int stat, int baseStat, int level, int EV, bool isHP, double 
 * @param natureMod - Nature modifier (+ is 1.1, - is 0.9, assumed 1 if no value is given)
 * @return a vector containing the minimum and maximum IV values in that order
 */
-vector<int> findBaseStat(int stat, int level, int EV, int IV, bool isHP, double natureMod) {
+vector<int> findBaseStat(int stat, int level, int EV, int IV, bool isHP, double natureMod)
+{
     //HP FORMULA = int((2*Base + IV + int(EV/4)) * Level/100 + Level + 10)
     //OTHER STAT ORMULA = int( (int( (2*Base + IV + int(EV/4) * Level/100) ) + 5) * Nature )
 
