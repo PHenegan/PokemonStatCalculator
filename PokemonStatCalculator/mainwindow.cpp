@@ -93,4 +93,8 @@ void MainWindow::on_pushCalculate_clicked()
             //TODO: write backend for this
         break;
     }
+
+    //Sets Minimum/Maximum values in UI, converts string to c-string to QString
+    ui->lowResult->setText(QString(("Min: " + std::to_string(range[0])).c_str()));
+    ui->highResult->setText(QString(("Max: " + std::to_string(range[1])).c_str()));
 }

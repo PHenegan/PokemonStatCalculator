@@ -65,7 +65,11 @@
         </widget>
        </item>
        <item>
-        <widget class="QSpinBox" name="input1"/>
+        <widget class="QSpinBox" name="input1">
+         <property name="maximum">
+          <number>500</number>
+         </property>
+        </widget>
        </item>
        <item>
         <spacer name="rightSpacer1">
@@ -108,7 +112,11 @@
         </widget>
        </item>
        <item>
-        <widget class="QSpinBox" name="input2"/>
+        <widget class="QSpinBox" name="input2">
+         <property name="maximum">
+          <number>500</number>
+         </property>
+        </widget>
        </item>
        <item>
         <spacer name="rightSpacer2">
@@ -151,7 +159,11 @@
         </widget>
        </item>
        <item>
-        <widget class="QSpinBox" name="input3"/>
+        <widget class="QSpinBox" name="input3">
+         <property name="maximum">
+          <number>500</number>
+         </property>
+        </widget>
        </item>
        <item>
         <spacer name="rightSpacer3">
@@ -194,7 +206,11 @@
         </widget>
        </item>
        <item>
-        <widget class="QSpinBox" name="input4"/>
+        <widget class="QSpinBox" name="input4">
+         <property name="maximum">
+          <number>500</number>
+         </property>
+        </widget>
        </item>
        <item>
         <spacer name="rightSpacer4">
@@ -302,6 +318,24 @@
         <string>Calculate</string>
        </property>
       </widget>
+     </item>
+     <item>
+      <layout class="QHBoxLayout" name="results">
+       <item>
+        <widget class="QLabel" name="lowResult">
+         <property name="text">
+          <string>Min:</string>
+         </property>
+        </widget>
+       </item>
+       <item>
+        <widget class="QLabel" name="highResult">
+         <property name="text">
+          <string>Max:</string>
+         </property>
+        </widget>
+       </item>
+      </layout>
      </item>
     </layout>
    </widget>
