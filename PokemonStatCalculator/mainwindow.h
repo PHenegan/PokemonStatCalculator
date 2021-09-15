@@ -27,17 +27,13 @@ private slots:
 
     void on_pushCalculate_clicked();
 
-    void on_isHP_stateChanged(int arg1);
-
-    void on_natureMods_currentTextChanged(const QString &arg1);
-
 private:
     enum CalcMode {EV, IV, BASE_STAT, STAT, LEVEL};
 
     Ui::MainWindow *ui;
     CalcMode m_currentOperation;
-    bool m_isHP;
-    double m_natureMod;
+
+    void inputTitle(QString windowTitle, QString title1, QString title2, QString title3, QString title4, CalcMode operation);
 
 };
 #endif // MAINWINDOW_H
